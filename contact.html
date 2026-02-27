@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Golden Moments Events</title>
+  <meta name="description" content="Contact Golden Events to inquire about white-and-gold themed event hosting for weddings, corporate events, and private celebrations." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">ByGrace<span>Events</span></a>
+      <button class="navbar__toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="navbar__nav">
+        <ul class="navbar__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html" class="is-active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Get in Touch</p>
+        <h1>Let’s Start Planning Your Event</h1>
+        <p class="page-hero__subtitle">
+          Share a few details about your event and our team will respond within 2 business days with next steps.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container section--split contact-section">
+        <div class="contact-section__form">
+          <h2>Event Inquiry Form</h2>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" />
+              </div>
+              <div class="form-field">
+                <label for="event-type">Event Type *</label>
+                <select id="event-type" name="event-type" required>
+                  <option value="">Select an option</option>
+                  <option value="wedding">Wedding / Engagement</option>
+                  <option value="corporate">Corporate / Non-Profit</option>
+                  <option value="private">Private Celebration</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="event-date">Preferred Date</label>
+                <input type="date" id="event-date" name="event-date" />
+              </div>
+              <div class="form-field">
+                <label for="guest-count">Estimated Guest Count</label>
+                <input type="number" id="guest-count" name="guest-count" min="1" />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="message">Tell Us About Your Vision *</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Submit Inquiry</button>
+            <p class="form-message" id="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+        <aside class="contact-section__details">
+          <h2>Contact Details</h2>
+          <p>Email: <a href="mailto:hello@goldenevents.host">hello@goldenevents.host</a></p>
+          <p>Phone: <a href="tel:+15550123456">+1 (555) 012-3456</a></p>
+          <p>Hours: Monday–Friday, 10:00–18:00 IST</p>
+          <h3>Location</h3>
+          <p>Mumbai, India &middot; Available for destination events worldwide.</p>
+          <div class="map-placeholder" aria-hidden="true">
+            <span>Map Placeholder</span>
+          </div>
+          <h3>Social</h3>
+          <ul class="social-links">
+            <li><a href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Pinterest">Pinterest</a></li>
+            <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">ByGrace<span>Events</span></a>
+        <p>Premier event host specializing in white-and-gold luxury experiences.</p>
+      </div>
+      <div class="footer__links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h3>Contact</h3>
+        <p>Email: hello@goldenevents.host</p>
+        <p>Phone: +1 (555) 012-3456</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; <span id="year"></span> Golden Events. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
+

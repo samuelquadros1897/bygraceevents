@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events &amp; Gallery | Golden Moments Events</title>
+  <meta name="description" content="Browse the Golden Events gallery and past events, from weddings to corporate galas, styled in white and gold." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">ByGrace<span>Events</span></a>
+      <button class="navbar__toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="navbar__nav">
+        <ul class="navbar__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="events.html" class="is-active">Events</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Past Events</p>
+        <h1>Golden Highlights &amp; Gallery</h1>
+        <p class="page-hero__subtitle">
+          A glimpse into the weddings, galas, and celebrations we've had the honor to host.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="gallery-filters">
+          <button class="filter-btn is-active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="wedding">Weddings</button>
+          <button class="filter-btn" data-filter="corporate">Corporate</button>
+          <button class="filter-btn" data-filter="private">Private</button>
+        </div>
+        <div class="grid grid--3 gallery-grid">
+          <article class="card gallery-item" data-category="wedding">
+            <div class="gallery-item__image-placeholder"></div>
+            <h3>Ivory &amp; Gold Garden Wedding</h3>
+            <p>Outdoor ceremony and candlelit reception for 180 guests.</p>
+            <p class="gallery-item__meta">Wedding &middot; Mumbai</p>
+          </article>
+          <article class="card gallery-item" data-category="corporate">
+            <div class="gallery-item__image-placeholder"></div>
+            <h3>Midnight Gold Awards Gala</h3>
+            <p>Black-tie recognition event with live entertainment.</p>
+            <p class="gallery-item__meta">Corporate Gala &middot; Bengaluru</p>
+          </article>
+          <article class="card gallery-item" data-category="private">
+            <div class="gallery-item__image-placeholder"></div>
+            <h3>Golden Hour Terrace Soirée</h3>
+            <p>Intimate champagne celebration at sunset for 40 guests.</p>
+            <p class="gallery-item__meta">Private Celebration &middot; Delhi</p>
+          </article>
+          <article class="card gallery-item" data-category="corporate">
+            <div class="gallery-item__image-placeholder"></div>
+            <h3>Brand Launch in White &amp; Gold</h3>
+            <p>Immersive brand experience with product showcases and live demos.</p>
+            <p class="gallery-item__meta">Product Launch &middot; Hyderabad</p>
+          </article>
+          <article class="card gallery-item" data-category="wedding">
+            <div class="gallery-item__image-placeholder"></div>
+            <h3>Palatial Wedding Weekend</h3>
+            <p>Three-day destination celebration featuring traditional and modern ceremonies.</p>
+            <p class="gallery-item__meta">Wedding &middot; Jaipur</p>
+          </article>
+          <article class="card gallery-item" data-category="private">
+            <div class="gallery-item__image-placeholder"></div>
+            <h3>Golden Jubilee Celebration</h3>
+            <p>50-year anniversary marked with speeches, music, and gourmet dining.</p>
+            <p class="gallery-item__meta">Anniversary &middot; Chennai</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo">ByGrace<span>Events</span></a>
+        <p>Premier event host specializing in white-and-gold luxury experiences.</p>
+      </div>
+      <div class="footer__links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h3>Contact</h3>
+        <p>Email: hello@goldenevents.host</p>
+        <p>Phone: +1 (555) 012-3456</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; <span id="year"></span> Golden Events. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
+
